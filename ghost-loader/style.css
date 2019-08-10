@@ -23,7 +23,7 @@ body, html {
   z-index: 2;
   background-color: #00e88b;
   height: 20px;
-  transition: width 3s ease;
+  transition: width 4s ease-out;
 }
 
 .ghost-bar {
