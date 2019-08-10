@@ -1,0 +1,34 @@
+body, html {
+  margin: 0;
+}
+
+.bar-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #888;
+}
+
+.bar-wrapper {
+  background-color: #666; 
+  width: 80%;
+  height: 20px;
+  overflow: hidden;
+}
+
+.bar {
+  position: absolute;
+  z-index: 2;
+  background-color: #00e88b;
+  height: 20px;
+  transition: width 3s ease;
+}
+
+.ghost-bar {
+  position: absolute;
+  z-index: 1;
+  background-color: #f7ffaa;
+  height: 20px;
+}
